@@ -23,7 +23,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 section {
   padding: 2rem;
@@ -208,9 +207,24 @@ ul {
 }
 
 .card {
-  border: 1px solid #000;
   height: 300px;
   width: 400px;
+}
+
+.card-title > h4 {
+  color: #4a46ff;
+  text-align: center;
+}
+
+.card img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.card-title > h5 {
+  color: #45fbcf;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
