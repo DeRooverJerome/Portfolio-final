@@ -70,6 +70,12 @@ footer {
   border: 5px solid #000;
 }
 
+.profile {
+  background-image: url("./img/photo\ profil\ 2.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .blue,
 .green {
   width: 125px;
