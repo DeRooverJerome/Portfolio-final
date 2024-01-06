@@ -226,11 +226,18 @@ ul {
   height: 200px;
   width: 400px;
   object-fit: cover;
+  border: 2px solid #45fbcf;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
 }
 
 .card-title > h5 {
   color: #45fbcf;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1024px) {
